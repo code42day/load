@@ -2,9 +2,11 @@
   "name": "load",
   "repo": "code42day/load",
   "description": "Basic script loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
-    "js", "javascript", "loader"
+    "js",
+    "javascript",
+    "loader"
   ],
   "license": "MIT",
   "main": "index.js",

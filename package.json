@@ -1,5 +1,5 @@
 {
-  "name": "code42day-load",
+  "name": "dynload",
   "version": "1.0.1",
   "description": "Basic script loader",
   "main": "index.js",
@@ -8,16 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/code42day/load.git"
+    "url": "https://github.com/pirxpilot/dynload.git"
   },
   "keywords": [
     "browser",
     "loader"
   ],
-  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
+  "author": "Damian Krzeminski <pirxpilot@furkot.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/code42day/load/issues"
-  },
-  "homepage": "https://github.com/code42day/load"
+  "homepage": "https://github.com/pirxpilot/dynload"
 }

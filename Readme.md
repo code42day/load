@@ -11,14 +11,14 @@ your page.
 
 ## Installation
 
-Install with [component(1)](http://component.io):
+Install with [npm]:
 
-    $ component install code42day/load
+    $ npm install dynload
 
 ## API
 
 ```javascript
-var load = require('load');
+var load = require('dynload');
 load('//topic.disqus.com/count.js');
 ```
 
@@ -51,7 +51,7 @@ load('//cdn/script.js').onerror =  function (err) {
 If you your callback work with IE use [segmentio/script-onload](https://github.com/segmentio/script-onload)
 
 ```javascript
-var load  = require('load');
+var load  = require('dynload');
 var onload = require('script-onload');
 
 onload(load('//cdn/script.js'), function(err) {
@@ -68,3 +68,4 @@ onload(load('//cdn/script.js'), function(err) {
   MIT
 
 [1]: http://www.html5rocks.com/en/tutorials/speed/script-loading/
+[npm]: https://www.npmjs.org/

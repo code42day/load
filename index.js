@@ -6,11 +6,12 @@ module.exports = function load(src, async) {
   if (typeof async === 'boolean') {
     s.async = async;
   }
-  (document.head || document.body).appendChild(s);
 
   function executor(resolve, reject) {
+    (document.head || document.body).appendChild(s);
     s.onload = function() { resolve(s); };
     s.onerror = function(err) { reject(err); };
   }
+
   return new Promise(executor);
 };

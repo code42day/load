@@ -18,5 +18,8 @@
   "homepage": "https://github.com/pirxpilot/dynload",
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "jshint": "2.9.5"
+  }
 }

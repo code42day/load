@@ -2,7 +2,6 @@
   "name": "dynload",
   "version": "1.0.2",
   "description": "Basic script loader",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,8 @@
   ],
   "author": "Damian Krzeminski <pirxpilot@furkot.com>",
   "license": "MIT",
-  "homepage": "https://github.com/pirxpilot/dynload"
+  "homepage": "https://github.com/pirxpilot/dynload",
+  "files": [
+    "index.js"
+  ]
 }
